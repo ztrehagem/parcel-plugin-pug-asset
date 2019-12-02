@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "A plugin for parcel-bundler v1 to resolve include/extend paths of .pug files correctly.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "presample": "rm -rf sample/dist",
+    "sample": "node sample/build.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +26,14 @@
   "bugs": {
     "url": "https://github.com/ztrehagem/parcel-plugin-pug-asset/issues"
   },
-  "homepage": "https://github.com/ztrehagem/parcel-plugin-pug-asset#readme"
+  "homepage": "https://github.com/ztrehagem/parcel-plugin-pug-asset#readme",
+  "devDependencies": {
+    "glob": "^7.1.6",
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4"
+  }
 }
