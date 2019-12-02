@@ -1,0 +1,26 @@
+{
+  "name": "@ztrehagem/parcel-plugin-pug-asset",
+  "version": "1.0.0",
+  "description": "A plugin for parcel-bundler v1 to resolve include/extend paths of .pug files correctly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ztrehagem/parcel-plugin-pug-asset.git"
+  },
+  "keywords": [
+    "parcel",
+    "parcel-bundler",
+    "parcel-plugin",
+    "plugin",
+    "pug"
+  ],
+  "author": "Shigeki Suwa <shigeki.suwa@ztrehagem.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ztrehagem/parcel-plugin-pug-asset/issues"
+  },
+  "homepage": "https://github.com/ztrehagem/parcel-plugin-pug-asset#readme"
+}
