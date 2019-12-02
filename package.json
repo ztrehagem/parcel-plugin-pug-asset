@@ -1,6 +1,6 @@
 {
   "name": "@ztrehagem/parcel-plugin-pug-asset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for parcel-bundler v1 to resolve include/extend paths of .pug files correctly.",
   "main": "index.js",
   "files": [
