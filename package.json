@@ -4,7 +4,8 @@
   "description": "A plugin for parcel-bundler v1 to resolve include/extend paths of .pug files correctly.",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "lib"
   ],
   "scripts": {
     "presample": "rm -rf sample/dist",
