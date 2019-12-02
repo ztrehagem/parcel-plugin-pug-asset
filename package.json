@@ -10,6 +10,9 @@
     "presample": "rm -rf sample/dist",
     "sample": "node sample/build.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ztrehagem/parcel-plugin-pug-asset.git"
