@@ -11,6 +11,10 @@
     "presample": "rm -rf sample/dist",
     "sample": "node sample/build.js"
   },
+  "engines": {
+    "node": "^12.13.1",
+    "npm": "^6.12.1"
+  },
   "publishConfig": {
     "access": "public"
   },
