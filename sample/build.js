@@ -11,7 +11,7 @@ const glob = require('glob')
       cache: false,
     })
 
-    bundler.addAssetType('.pug', require.resolve('../index.js'))
+    require('../index')(bundler)
 
     const server = await bundler.serve()
   } catch (error) {
